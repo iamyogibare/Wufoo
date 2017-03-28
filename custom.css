@@ -28,9 +28,10 @@ form ul:after, form li:after, form li div:after{
 }
 
 .wufoo .info, .wufoo .paging-context{
-  background-color: #333f48 !important;
+  border-bottom: 1px solid #333f48 !important;
   width: 100% !important;
-  height: .063em !important;
+  height: 30px !important;
+  padding-left: 0 !important;
 }
 
 .wufoo .form-input-container label{
@@ -48,12 +49,14 @@ form ul:after, form li:after, form li div:after{
 }
 
 
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{
-  width: 100% !important;
+.wufoo input.text, .wufoo textarea.textarea, .wufoo label.choice{
+  width: 90% !important;
   padding: .54em 1.25em !important;
   line-height: 1.35 !important;
   border: 1px solid #bfced6 !important;
   color: #333f48 !important;
+  background: none !important;
+  min-width: 0 !important;
 }
 
 
@@ -61,4 +64,58 @@ form ul:after, form li:after, form li div:after{
   color: #333f48 !important;
   font-weight: 700 !important;
   font-size: 1.125em !important;
+}
+
+.wufoo li.focused{
+  background-color: #ffffff !important;
+}
+
+.leftLabel li div, .rightLabel li div{
+  width:60% !important;
+  float: right !important;
+}
+
+
+.leftLabel .desc, .rightLabel .desc{
+  width: 37% !important;
+}
+
+.wufoo input.btTxt{
+  background-color: #333f48 !important;
+  color: #ffffff !important;
+  border: none !important;
+  padding: .438em 0 !important;
+  line-height: 1.375 !important;
+  font-size: 1em !important;
+  text-transform: uppercase !important;
+  font-family: Bariol,Helvetica,Verdana,sans-serif !important;
+  width: 15.625em !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+}
+
+.noI .leftLabel .buttons, .noI .rightLabel .buttons{
+  padding-left: 0 !important;
+}
+
+#Field1, #Field2{
+ width: 133px !important;
+}
+
+form li.error {
+  background-color: #ffffff !important;
+}
+
+form ul{
+  margin-top: 20px !important;
+}
+
+.wufoo select.select{
+  width: 100% !important;
+  padding: .54em 1.25em !important;
+  line-height: 1.35 !important;
+  border: 1px solid #bfced6 !important;
+  color: #333f48 !important;
+  background: none !important;
+  min-width: 0 !important;
 }
