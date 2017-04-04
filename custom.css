@@ -34,7 +34,7 @@ form ul:after, form li:after, form li div:after{
   padding-left: 0 !important;
 }
 
-.wufoo .form-input-container label{
+.wufoo .form-input-container label. .wufoo .form-input-container-c label{
   color: #333f48 !important;
   font-weight: 700 !important;
   font-size: 1.125em !important;
@@ -58,7 +58,6 @@ form ul:after, form li:after, form li div:after{
   background: none !important;
   min-width: 0 !important;
 }
-
 
 .wufoo label.desc, .wufoo legend.desc{
   color: #333f48 !important;
@@ -98,7 +97,7 @@ form ul:after, form li:after, form li div:after{
   padding-left: 0 !important;
 }
 
-#Field1, #Field2, .form-input-container-c #Field9, .form-input-container-c #Field10{
+#Field1, #Field2{
  width: 133px !important;
 }
 
@@ -118,4 +117,27 @@ form ul{
   color: #333f48 !important;
   background: none !important;
   min-width: 0 !important;
+}
+
+
+.form-input-container-c #Field9, .form-input-container-c #Field10{
+  width: 245px !important;
+  margin-right:5px !important;
+}
+
+
+.form-input-container-c #Field1{
+  width: 90% !important;
+}
+
+.form-input-container-c .left, .form-input-container-c .right {
+  width:45% !important;
+  margin-right: 4% !important;
+  float: left !important;
+
+}
+
+.form-input-container-c .safari select.select{
+  font-size: 100% !important;
+  width: 105% !important;
 }
