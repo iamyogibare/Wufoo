@@ -134,10 +134,9 @@ form ul{
   width:45% !important;
   margin-right: 4% !important;
   float: left !important;
-
 }
 
-.form-input-container-c .safari select.select{
+.form-input-container-c select.select{
   font-size: 100% !important;
   width: 105% !important;
 }
